@@ -4,6 +4,7 @@ body {
 }
 
 .app {
+  height: 100vh;
   margin-top: 20px;
   margin-bottom: 20px;
   display: flex;
@@ -19,6 +20,10 @@ body {
     border-radius: 4px;
     h3 {
       margin-top: 0;
+    }
+    img {
+      max-width: 100%;
+      max-height: 100%;
     }
   }
 }
