@@ -29,6 +29,9 @@ body {
 }
 
 .list-group-item {
-  background-color: transparent;
+  background-color: #25303e;
   cursor: pointer;
+  &:hover {
+    background-color: transparent;
+  }
 }
